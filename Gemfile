@@ -13,8 +13,6 @@ gem 'puma', '~> 4.1'
 gem 'sass-rails', '>= 6'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
-# Use Active Model has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
@@ -22,6 +20,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'graphql', '1.9.17'
 
 gem 'bcrypt', '~> 3.1.13'
+
+gem 'search_object_graphql', '0.3.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
