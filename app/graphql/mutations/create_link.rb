@@ -1,6 +1,5 @@
 module Mutations
   class CreateLink < BaseMutation
-    # arguments passed to the `resolve` method
     argument :description, String, required: true
     argument :url, String, required: true
 
